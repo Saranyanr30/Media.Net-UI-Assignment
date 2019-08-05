@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>NewsTrackr</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Breaking News, News Coverage, Current Events and More">
+    <meta name="keywords" content="News,Business News,Politics,Entertainment,Sports,Health">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:bold&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+</head>
+
+<body>
+    <header>
+        <div class="logowrap">
+            <a href="javascript:void(0)">
+                <img class="logo-img" src="assets/images/logo.png" alt="NewsTrackr Logo">
+            </a>
+            <a class="chromewebstorewrap" href="javascript:void(0)">
+                <img class="chromewebstore-img" src="assets/images/chrome.png" alt="Available in the Chrome Web Store">
+            </a>
+        </div>
+        <div class="appdescwrap">
+            <h1>Breaking News, News Coverage, Current Events &amp; More</h1>
+            <div class="installdescwrap">
+                <p>Install NewsTrackr to access the latest local, national &amp; world news directly on your New Tab, along
+                    with web search.</p>
+                <div class="installbtnwrap">
+                    <button class="installbtn" onclick="displayPopup()">CONTINUE
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <nav class="newstopicsnav">
+            <ul>
+                <li>
+                    <img src="assets/images/business.png" alt="Share Market Profit Loss Graph">
+                    <label>Business News
+                        <span>&gt;&gt;</span>
+                    </label>
+                </li>
+                <li>
+                    <img src="assets/images/politics.png" alt="Legislative Body">
+                    <label>Politics
+                        <span>&gt;&gt;</span>
+                    </label>
+                </li>
+                <li>
+                    <img src="assets/images/entertainment.png" alt="Media">
+                    <label>Entertainment
+                        <span>&gt;&gt;</span>
+                    </label>
+                </li>
+                <li>
+                    <img src="assets/images/sports.png" alt="Person Plays Football">
+                    <label>Sports
+                        <span>&gt;&gt;</span>
+                    </label>
+                </li>
+                <li>
+                    <img src="assets/images/health.png" alt="Heart Rate">
+                    <label>Health
+                        <span>&gt;&gt;</span>
+                    </label>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="sharebookmarkwrap">
+        <div class="sharebookmarkcontent">
+            <div class="descriptionwrap">
+                <span class="sharebookmarkicon"></span>
+                <h2>Share or Bookmark News Articles</h2>
+                <p>With infinite news reports released daily, you’re bound to miss important information. For when you don’t
+                    have the time to read full articles, NewsTrackr allows you to bookmark articles you would want to read
+                    at leisure.. You can also share articles online.</p>
+                <button class="installbtnwhite" onclick="displayPopup()">CONTINUE
+                    <span></span>
+                </button>
+            </div>
+            <div class="imagewrap">
+                <img class="sharebookmarksample-img" src="assets/images/sharebookmarksample.png">
+                <img class="cursor-img" src="assets/images/cursor.png">
+            </div>
+        </div>
+    </section>
+    <section class="newsfeatureswrap">
+        <div class="newsfeaturewrap">
+            <img src="assets/images/watchnews.png" alt="News Reporter holding mic while celebrity replies">
+            <h2>Watch
+                <br/>News Coverage</h2>
+            <p>Want to catch up on world events? Stay updated stories from across the globe. By adding <span>NewsTrackr</span> to your New
+                Tab, you can stream live news stories and watch news videos conveniently</p>
+            <button class="installbtnwhite" onclick="displayPopup()">CONTINUE
+                <span></span>
+            </button>
+        </div>
+        <div class="newsfeaturewrap">
+            <img src="assets/images/personalisednews.png" alt="Girl watching video in laptop with coffee in hand">
+            <h2>Personalized News
+                <br/>Recommendations</h2>
+            <p>Interested in political news but not entertainment news? <span>NewsTrackr</span> traitors a unique and personalized newsfeed,
+                based on your interests and preferences. cover quality content from around the web.</p>
+            <button class="installbtnwhite" onclick="displayPopup()">CONTINUE
+                <span></span>
+            </button>
+        </div>
+    </section>
+    <section class="installstepswrap">
+        <span class="save-img"></span>
+        <h2>Add NewsTrackr To Your New Tab Now!</h2>
+        <ul>
+            <li>Free installation.</li>
+            <li>No settings or customizations required.</li>
+        </ul>
+        <button class="installbtn" onclick="displayPopup()">CONTINUE
+            <span></span>
+        </button>
+    </section>
+    <footer>
+        <ul>
+            <li>Privacy Policy</li>
+            <li>EULA</li>
+            <li>Endorsement Disclaimer and DMCA Policy</li>
+            <li>Contact Us</li>
+            <li>Uninstall</li>
+        </ul>
+        <p>All trademarks are the property of their respective owners. No affiliation or endorsement is intended or implied.</p>
+    </footer>
+        <div class="modal" id="modal">
+          <p id="modal-message">Thank you for downloading.</p>          
+          <span class="close" onclick="closeModal()">&times;</span>
+        </div>
+      <script src="assets/js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,667 @@
+body {
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+header {
+    background-image: url('../images/headerbg.png');
+    background-size: cover;
+    background-color: #2a2d35;
+    width: 100%;
+    padding: 50px 0 75px;
+}
+
+.logo-img {
+    width: 100%;
+    height: auto;
+    min-width: 110px;
+}
+
+.chromewebstore-img {
+    width: 100%;
+    height: auto;
+}
+
+.installbtn span {
+    display: inline-block;
+    background-image: url('../images/rightarrow.png');
+    background-size: 23px 22px;
+    width: 23px;
+    height: 22px;
+    margin-left: 10px;
+    position: relative;
+    right: 0;
+    transition: all 0.2s;
+}
+
+.installbtn:hover span {
+    right: -4px;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: normal;
+    text-align: center;
+    margin: 120px 0 70px;
+}
+
+.installdescwrap p {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: #9f9f9f;
+    margin: 0 30px 0 0;
+    text-align: justify;
+    line-height: 25px;
+}
+
+.installbtn {
+    font-size: 29px;
+    color: #ffffff;
+    background: #ea7141;
+    border-radius: 38px;
+    border: 0;
+    width: 300px;
+    height: 75px;
+}
+
+nav label {
+    font-family: 'Lato', sans-serif;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #000000;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    outline: 0;
+    cursor: pointer;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+ul li {
+    font-family: 'Lato', sans-serif;
+}
+
+.sharebookmarkwrap p {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #999999;
+    text-align: center;
+    line-height: 24px;
+}
+
+.installbtnwhite {
+    font-size: 20px;
+    color: #ea7141;
+    width: 195px;
+    height: 50px;
+    border-radius: 25px;
+    border: solid 1px #e5e5e5;
+    background: #fff;
+    box-shadow: 5px 5px #e5e5e5;
+}
+
+.installbtnwhite span {
+    display: inline-block;
+    background-image: url('../images/rightarroworange.png');
+    background-size: 15px 15px;
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+    position: relative;
+    right: 0;
+    transition: all 0.2s;
+}
+
+.installbtnwhite:hover span {
+    right: -4px;
+}
+
+.sharebookmarkicon {
+    display: inline-block;
+    background-image: url('../images/sharebookmark.png');
+    background-size: 47px 16px;
+    width: 47px;
+    height: 16px;
+    margin: 0 auto;
+}
+
+.sharebookmarkwrap .sharebookmarksample-img {
+    width: 100%;
+    height: auto;
+}
+
+.sharebookmarkcontent .imagewrap {
+    padding: 10px 35px 30px;
+    background: #ffffff;
+    box-shadow: 20px 17px #e5e5e5;
+    border: 1px solid #e5e5e5;
+    width: 33%;
+    position: relative;
+}
+
+.save-img {
+    display: inline-block;
+    background-image: url('../images/save.png');
+    background-size: 41px 34px;
+    width: 41px;
+    height: 34px;
+}
+
+.newsfeaturewrap img {
+    width: 100%;
+    height: auto;
+}
+
+.newstopicsnav ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+
+.newstopicsnav ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    cursor: pointer;
+}
+
+.newstopicsnav ul li img {
+    margin-bottom: 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+.newstopicsnav ul li label {
+    font-size: 18px;
+    color: #ffffff;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.newstopicsnav ul li:hover label {
+    color: #ea7141;
+}
+
+.newstopicsnav ul li label span {
+    color: #ea7141;
+    position: relative;
+    right: 0;
+    transition: all 0.2s ease;
+}
+
+.newstopicsnav ul li:hover label span {
+    right: -4px;
+}
+
+.sharebookmarkwrap {
+    background-color: #f6f6f6;
+}
+
+.sharebookmarkcontent {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding: 75px 0 92px;
+}
+
+.sharebookmarkcontent .installbtnwhite {
+    margin: 25px auto 0;
+}
+
+.sharebookmarkwrap .descriptionwrap {
+    display: flex;
+    flex-direction: column;
+    width: 67%;
+    margin-right: 40px;
+}
+
+.sharebookmarkwrap .descriptionwrap h2 {
+    text-align: center;
+    margin: 30px 0 0;
+}
+
+.newsfeaturewrap p {
+    color: #999999;
+    font-size: 16px;
+    line-height: 24px;
+    flex-grow: 2;
+}
+
+.newsfeaturewrap .installbtnwhite {
+    margin-top: 17px;
+}
+
+header .appdescwrap {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+
+header .appdescwrap .installdescwrap {
+    display: flex;
+    align-items: center;
+    margin-bottom: 180px;
+}
+
+header .logowrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 63px;
+}
+
+header .logowrap a {
+    font-size: 0;
+}
+
+.installstepswrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.installstepswrap h2 {
+    margin: 30px 0 15px;
+}
+
+.installstepswrap ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.installstepswrap ul li {
+    font-size: 18px;
+    color: #999999;
+    line-height: 26px;
+}
+
+.installstepswrap .installbtn {
+    margin-bottom: 95px;
+}
+
+.installbtnwrap {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    border-top: 1px solid #d7d8d9;
+    padding: 30px 0;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li {
+    color: #33363e;
+    font-size: 12px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    padding: 0 10px;
+    position: relative;
+}
+
+footer ul li:hover {
+    color: #ea7141;
+}
+
+footer ul li:not(:last-child):after {
+    content: '|';
+    color: #33363e;
+    position: absolute;
+    right: 0;
+}
+
+footer p {
+    font-size: 12px;
+    color: rgba(51, 54, 62, 0.8);
+    margin: 17px 0 0;
+}
+
+.newsfeatureswrap {
+    display: flex;
+    width: 70%;
+    margin: 75px auto 170px;
+}
+
+.newsfeaturewrap {
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.newsfeaturewrap:first-child {
+    margin-right: 30px;
+}
+
+.newsfeaturewrap p span {
+    color: #33363e;
+}
+
+.cursor-img {
+    position: absolute;
+    width: 19px;
+    height: 26px;
+    left: 59%;
+    bottom: 8%;
+}
+
+.modal {
+    background-color: #fefefe;
+    border-radius: 5px;
+    position: fixed;
+    top: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 60px;
+    width: 280px;
+    margin: auto;
+    box-shadow: 0 0 5px 0 #838383;
+}
+
+.modal p {
+    margin: 0;
+    color: #525252;
+}
+
+.modal .close {
+    color: #aaaaaa;
+    font-size: 30px;
+    margin-left: 18px;
+}
+
+.modal .close:hover,
+.modal .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@-moz-document url-prefix() {
+    .modal {
+        right: initial;
+        bottom: initial;
+    }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    .modal {
+        left: initial;
+        bottom: initial;
+    }
+}
+
+@supports (-ms-ime-align:auto) {
+    .modal {
+        top: initial;
+    }
+}
+
+.chromewebstorewrap {
+    margin-left: 43px;
+}
+
+_:-ms-lang(x),
+.newstopicsnav ul {
+    justify-content: space-around;
+}
+
+@media screen and (min-width: 800px) and (max-width:1365px) {
+    header .appdescwrap {
+        padding: 0 30px;
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    header .appdescwrap {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    header .appdescwrap {
+        padding: 0 30px;
+    }
+    .sharebookmarkcontent {
+        padding: 75px 30px 92px;
+        width: auto;
+    }
+    .sharebookmarkcontent .imagewrap {
+        width: auto;
+        box-shadow: 10px 8px #e5e5e5;
+    }
+    .newsfeatureswrap {
+        padding: 0 30px;
+        width: auto;
+        margin-bottom: 100px;
+    }
+    .installbtn {
+        font-size: 25px;
+        width: 245px;
+        height: 60px;
+    }
+    header .appdescwrap .installdescwrap {
+        margin-bottom: 125px;
+    }
+    h1 {
+        font-size: 36px;
+    }
+    .installbtn span {
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 21px;
+        height: 20px;
+    }
+    .installdescwrap p {
+        font-size: 17px;
+    }
+    .newsfeaturewrap p,
+    .sharebookmarkwrap p {
+        font-size: 15px;
+    }
+    .newstopicsnav ul li label {
+        font-size: 16px;
+    }
+    h2 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .installstepswrap ul li {
+        font-size: 17px;
+    }
+    .installbtnwhite {
+        font-size: 19px;
+        width: 175px;
+        height: 45px;
+        box-shadow: 4px 4px #e5e5e5;
+    }
+    .newsfeaturewrap h2 {
+        margin-bottom: 8px;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width:620px) {
+    .newsfeatureswrap,
+    .sharebookmarkcontent {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .newsfeatureswrap,
+    .sharebookmarkcontent {
+        width: auto;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .chromewebstore-img {
+        max-width: 170px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    header {
+        padding: 35px 0;
+    }
+    header .logowrap {
+        padding: 0 30px;
+    }
+    h1 {
+        font-size: 24px;
+        line-height: 34px;
+        margin: 75px 0 35px;
+    }
+    header .appdescwrap {
+        padding: 0 30px;
+        width: auto;
+    }
+    header .appdescwrap .installdescwrap {
+        flex-direction: column;
+        align-items: stretch;
+        margin-bottom: 66px;
+    }
+    .installdescwrap p {
+        text-align: center;
+        font-size: 15px;
+        line-height: 23px;
+        margin: 0;
+    }
+    .installbtn {
+        width: 200px;
+        height: 50px;
+        font-size: 22px;
+    }
+    .appdescwrap .installbtn {
+        margin-top: 45px;
+    }
+    .installbtn span {
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 19px;
+        height: 18px;
+        margin-left: 5px;
+    }
+    .newstopicsnav ul li {
+        margin: 0 16px 30px;
+    }
+    .newstopicsnav ul li img {
+        margin-bottom: 15px;
+    }
+    .newstopicsnav ul li label {
+        font-size: 14px;
+    }
+    .sharebookmarkcontent {
+        padding: 50px 30px 50px;
+        flex-direction: column-reverse;
+        align-items: stretch;
+    }
+    .sharebookmarkwrap .descriptionwrap {
+        width: auto;
+        margin-right: 0;
+    }
+    h2 {
+        font-size: 18px;
+        line-height: 25px;
+        margin-top: 20px;
+    }
+    .sharebookmarkwrap p,
+    .newsfeaturewrap p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .newsfeaturewrap p {
+        margin: 0 0 16px;
+    }
+    .installbtnwhite {
+        font-size: 17px;
+        width: 155px;
+        height: 42px;
+        box-shadow: 2px 2px #e5e5e5;
+        margin: auto;
+    }
+    .sharebookmarkcontent .imagewrap {
+        width: 70%;
+        margin: 0 auto 50px;
+        box-shadow: 10px 8px #e5e5e5;
+    }
+    .newsfeatureswrap {
+        flex-direction: column;
+        margin: 50px auto 70px;
+        padding: 0 30px;
+    }
+    .newsfeaturewrap {
+        width: auto;
+        text-align: center;
+    }
+    .newsfeaturewrap:first-child {
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+    .installstepswrap {
+        text-align: center;
+        padding: 0 30px;
+    }
+    footer {
+        padding: 30px 15px;
+    }
+    footer ul {
+        flex-wrap: wrap;
+    }
+    footer ul li {
+        line-height: 20px;
+    }
+    footer p {
+        line-height: 18px;
+    }
+    .installstepswrap ul li {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .newsfeaturewrap h2 {
+        margin-bottom: 16px;
+    }
+}
+
+@media screen and (min-width:1600px) {
+    .appdescwrap {
+        width: 42%;
+    }
+    .sharebookmarkcontent {
+        width: 70%;
+    }
+    .newsfeatureswrap {
+        width: 60%;
+    }
+}
